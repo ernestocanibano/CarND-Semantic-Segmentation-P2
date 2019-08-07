@@ -9,13 +9,13 @@ In this section i explain the process of train the model.
 ### Hyperparameters
 
 After several trainings, finally the hyperparameters selected for the final model are the following:
-* **Dropout = 0.5** [Line 134](./src/main.py#L134)
-* **Learning rate = 1e-5** [Line 135](./src/main.py#L135)
-* **Epochs = 50** [Line 154](./src/main.py#L154)
-* **Batch size = 4** [Line 155](./src/main.py#L155)
-* **Standard deviation = 1e-2** [Line 62](./src/main.py#L62)
-* **L2 regularization in layers = 1e-4** [Line 63](./src/main.py#L63)
-* **L2 regularization additional = 1e-4** [Line 96](./src/main.py#L96)
+* **Dropout = 0.5** [Line 134](./main.py#L134)
+* **Learning rate = 1e-5** [Line 135](./main.py#L135)
+* **Epochs = 50** [Line 154](./main.py#L154)
+* **Batch size = 4** [Line 155](./main.py#L155)
+* **Standard deviation = 1e-2** [Line 62](./main.py#L62)
+* **L2 regularization in layers = 1e-4** [Line 63](./main.py#L63)
+* **L2 regularization additional = 1e-4** [Line 96](./main.py#L96)
  
 ### Training process
 
@@ -54,12 +54,12 @@ Later I tried to improve the model adding an **additional L2 regularization**. I
 Finally i tried some more test testing different values for the **Dropout** but I decided use **0.5**.
 
 ### Results
-![](runs/1565124891.7792559/um_000007.png)
-![](runs/1565124891.7792559/um_000020.png)
-![](runs/1565124891.7792559/um_000073.png)
-![](runs/1565124891.7792559/uu_000011.png)
-![](runs/1565124891.7792559/uu_000062.png)
-![](runs/1565124891.7792559/uu_000098.png)
+![](trainning_results/regularization/regularizaction=0.0001-epochs=50_/um_000007.png)
+![](trainning_results/regularization/regularizaction=0.0001-epochs=50_/um_000020.png)
+![](trainning_results/regularization/regularizaction=0.0001-epochs=50_/um_000073.png)
+![](trainning_results/regularization/regularizaction=0.0001-epochs=50_/uu_000011.png)
+![](trainning_results/regularization/regularizaction=0.0001-epochs=50_/uu_000062.png)
+![](trainning_results/regularization/regularizaction=0.0001-epochs=50_/uu_000098.png)
 
 
 
